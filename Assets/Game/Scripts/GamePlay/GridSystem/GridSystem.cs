@@ -1,3 +1,4 @@
+using UnityEngine;
 using UnityEngine.Tilemaps;
 using Zenject;
 
@@ -20,9 +21,33 @@ namespace Game
             _decorationTilemap = decorationTilemap;
         }
 
-        public void SetTile()
+        public TileBase GetTile(Vector3Int position)
         {
-            
+            return _decorationTilemap.GetTile(position);
+        }
+        
+        public bool HasTile(Vector3Int position)
+        {
+            var isTile = _decorationTilemap.GetTile(position);
+            return isTile != null;
+        }
+
+        public void SetTile(Vector3Int position, TileBase tile)
+        {
+            var isGround = _groundTilemap.GetTile(position);
+            if (isGround != null)
+                _decorationTilemap.SetTile(position, tile); 
+        }
+
+        public Vector3Int WorldToCell(Vector3 position)
+        {
+            position.z = 1;
+
+            Vector3Int gridPosition = _groundTilemap.WorldToCell(position);
+            gridPosition -= new Vector3Int(1, 1, 0);
+            gridPosition.z = 0;
+         
+            return gridPosition;
         }
     }
 }
