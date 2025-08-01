@@ -33,6 +33,8 @@ namespace Game {
             Container.Bind<TownHallConfig>().FromInstance(_townHallConfig);
             Container.Bind<TownHallModel>().FromNew().AsSingle();
             
+            Container.Bind<PathFinder>().FromNew().AsSingle();
+            
             Container.Bind<Tilemap>()
                 .WithId(GridSystem.k_GroundTileMap)
                 .FromInstance(_groundTileMap);

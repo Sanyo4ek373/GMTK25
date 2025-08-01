@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Tilemaps;
 using Zenject;
@@ -21,6 +22,41 @@ namespace Game
             _decorationTilemap = decorationTilemap;
         }
 
+        public bool IsWithinBounds(Vector3Int position)
+        {
+            return _groundTilemap.cellBounds.Contains(position);
+        }
+
+        public int GetCost(Vector3Int from, Vector3Int to)
+        {
+            var dx = Mathf.Abs(from.x - to.x);
+            var dy = Mathf.Abs(from.y - to.y);
+            return dx + dy == 2 ? 14 : 10;
+        }
+        
+        public List<Vector3Int> GetNeighbours(Vector3Int position)
+        {
+            List<Vector3Int> neighbours = new();
+
+            for (int dx = -1; dx <= 1; dx++)
+                for (int dy = -1; dy <= 1; dy++)
+                {
+                    if (dx == 0 && dy == 0)
+                        continue; 
+
+                    var neighbour = new Vector3Int(position.x + dx, position.y + dy, 0);
+                    if (IsWithinBounds(neighbour)) 
+                        neighbours.Add(neighbour);
+                }
+
+            return neighbours;
+        }
+        
+        public bool IsWalkable(Vector3Int position)
+        {
+            return !HasTile(position);
+        }
+        
         public TileBase GetTile(Vector3Int position)
         {
             return _decorationTilemap.GetTile(position);
