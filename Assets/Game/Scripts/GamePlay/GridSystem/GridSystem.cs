@@ -54,7 +54,7 @@ namespace Game
         
         public bool IsWalkable(Vector3Int position)
         {
-            return !HasTile(position);
+            return _groundTilemap.HasTile(position);
         }
         
         public TileBase GetTile(Vector3Int position)
@@ -70,20 +70,20 @@ namespace Game
 
         public void SetTile(Vector3Int position, TileBase tile)
         {
-            var isGround = _groundTilemap.GetTile(position);
-            if (isGround != null)
-                _decorationTilemap.SetTile(position, tile); 
+            _groundTilemap.SetTile(position, tile); 
         }
 
         public Vector3Int WorldToCell(Vector3 position)
         {
             position.z = 1;
-
             Vector3Int gridPosition = _groundTilemap.WorldToCell(position);
-            gridPosition -= new Vector3Int(1, 1, 0);
             gridPosition.z = 0;
-         
             return gridPosition;
+        }
+
+        public Vector3 CellToWorld(Vector3Int position)
+        {
+            return _groundTilemap.CellToWorld(position) - new Vector3(0.23f, -0.5f, 0);
         }
     }
 }

@@ -14,4 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   <Ground>k__BackingField: {fileID: 11400000, guid: 53f0948c47289944d9dee31c4928511f, type: 2}
   <Grass>k__BackingField: {fileID: 11400000, guid: b4d1c4b39f1a2e84ba64c552896fbc6f, type: 2}
-  <Tree>k__BackingField: {fileID: 11400000, guid: e50d5759c52e9f54b96445ead1292b34, type: 2}
+  <Dirt>k__BackingField: {fileID: 11400000, guid: 53f0948c47289944d9dee31c4928511f, type: 2}
+  <Tree>k__BackingField: {fileID: 11400000, guid: 49fb88702ba86384c9962632e14bb41a, type: 2}

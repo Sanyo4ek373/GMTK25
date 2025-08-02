@@ -1,4 +1,4 @@
-﻿namespace Game.Villanger
+﻿namespace Game
 {
     public class Unemployed : IWork
     {

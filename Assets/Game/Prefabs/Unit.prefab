@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3906081795811503713}
   - component: {fileID: 7282813107846564869}
+  - component: {fileID: 1816847589134101121}
   m_Layer: 0
   m_Name: Square
   m_TagString: Untagged
@@ -26,7 +27,7 @@ Transform:
   m_GameObject: {fileID: 2769054304730759425}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.21, y: -10.39, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -73,7 +74,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: 21300000, guid: 50d88785b4ef91745b89bca3d904dfc0, type: 3}
+  m_Sprite: {fileID: 5544457618466415372, guid: 1d53a8ca2cda73548b2750888b280b26, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -84,6 +85,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &1816847589134101121
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2769054304730759425}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 3e13e26c0fd540e4383098f0539a52c2, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &4879793909239076329
 GameObject:
   m_ObjectHideFlags: 0
@@ -94,6 +116,8 @@ GameObject:
   m_Component:
   - component: {fileID: 3616992275655504790}
   - component: {fileID: 7150784368293489476}
+  - component: {fileID: 2093545287258807055}
+  - component: {fileID: 7796130022171315478}
   m_Layer: 0
   m_Name: Unit
   m_TagString: Untagged
@@ -129,3 +153,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc798c9c9cc141aba5d1e244b8691f94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &2093545287258807055
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4879793909239076329}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5e71cd2979241bbbdce158895819dfe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &7796130022171315478
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4879793909239076329}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08eca9f7688a0a24685b89133b020c8e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _scriptableObjectInstallers: []
+  _monoInstallers:
+  - {fileID: 2093545287258807055}
+  _installerPrefabs: []
+  _autoRun: 1
+  _kernel: {fileID: 0}
