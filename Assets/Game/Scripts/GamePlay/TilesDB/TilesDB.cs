@@ -13,5 +13,8 @@ namespace Game
         
         [field: Header("Decorations")]
         [field: SerializeField] public TileBase Tree { get; private set; }
+        
+        [field: Header("Buildings")]
+        [field: SerializeField] public TileBase PlaceholderGhost { get; private set; }
     }
 }

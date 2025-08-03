@@ -5,37 +5,55 @@ using Zenject;
 
 namespace Game
 {
-    public class PlayerBrush : IInitializable, IDisposable
+    public class PlayerBrush : ITickable, IInitializable, IDisposable
     {
+        private readonly Camera _camera;
         private readonly GridSystem _gridSystem;
         private readonly PlayerControls _playerControls;
-        private readonly Camera _camera;
+        private readonly PlaceholderGhost _placeholderGhost;
         private readonly TilesDB _tilesDB;
         
-        public PlayerBrush(GridSystem gridSystem, PlayerControls playerControls, TilesDB tilesDB)
+        public PlayerBrush(
+            GridSystem gridSystem,
+            PlayerControls playerControls,
+            PlaceholderGhost placeholderGhost,
+            TilesDB tilesDB)
         {
-            _gridSystem = gridSystem;
-            _playerControls = playerControls;
             _tilesDB = tilesDB;
             _camera = Camera.main;
+            _gridSystem = gridSystem;
+            _playerControls = playerControls;
+            _placeholderGhost = placeholderGhost;
         }
-        
+
+        public void Tick()
+        {
+            var position = _playerControls.Controls.Player.Position.ReadValue<Vector2>();
+            var worldPosition = _camera.ScreenToWorldPoint(position);
+            
+            var cellPosition = _gridSystem.WorldToCell(worldPosition);
+            
+            _placeholderGhost.Position = cellPosition;
+        }
+
         public void Initialize()
         {
-            _playerControls.Controls.Player.Click.performed += ClickHandler;
+            _playerControls.Controls.Player.Click.performed += HandleClick;
         }
-        
+
         public void Dispose()
         {
-            _playerControls.Controls.Player.Click.performed -= ClickHandler;
+            _playerControls.Controls.Player.Click.performed -= HandleClick;
         }
 
-        private void ClickHandler(InputAction.CallbackContext callbackContext)
+        private void HandleClick(InputAction.CallbackContext callbackContext)
         {
-            var mousePosition = _playerControls.Controls.Player.Position.ReadValue<Vector2>();
-            var mouseWorldPosition = _camera.ScreenToWorldPoint(mousePosition);
-
+            var position = _playerControls.Controls.Player.Position.ReadValue<Vector2>();
+            var worldPosition = _camera.ScreenToWorldPoint(position);
             
+            var cellPosition = _gridSystem.WorldToCell(worldPosition);
+            
+            _gridSystem.AddBuildingGhost(cellPosition, _tilesDB.PlaceholderGhost);
         }
     }
 }

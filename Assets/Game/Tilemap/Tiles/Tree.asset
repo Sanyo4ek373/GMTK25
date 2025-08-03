@@ -15,4 +15,39 @@ MonoBehaviour:
   m_DefaultSprite: {fileID: -2078239015, guid: 60d781ad891158f4fafc0ade0077948d, type: 3}
   m_DefaultGameObject: {fileID: 7389712704527472696, guid: d15136fd3332e0741b6c0fcfba3252b5, type: 3}
   m_DefaultColliderType: 1
-  m_TilingRules: []
+  m_TilingRules:
+  - m_Id: 0
+    m_Sprites:
+    - {fileID: -1491349372940376238, guid: 3395918d396fb2b4a98d98d500adef33, type: 3}
+    - {fileID: -1370026016717207235, guid: 3395918d396fb2b4a98d98d500adef33, type: 3}
+    - {fileID: -5863379688640642951, guid: 3395918d396fb2b4a98d98d500adef33, type: 3}
+    - {fileID: 8496131346580739353, guid: 3395918d396fb2b4a98d98d500adef33, type: 3}
+    - {fileID: -8675109567162945137, guid: 3395918d396fb2b4a98d98d500adef33, type: 3}
+    - {fileID: -315819624479491352, guid: 3395918d396fb2b4a98d98d500adef33, type: 3}
+    - {fileID: 6667003524121157506, guid: 3395918d396fb2b4a98d98d500adef33, type: 3}
+    - {fileID: -6178072539437377223, guid: 3395918d396fb2b4a98d98d500adef33, type: 3}
+    - {fileID: 329341481115514633, guid: 3395918d396fb2b4a98d98d500adef33, type: 3}
+    - {fileID: 2718812473784956494, guid: 3395918d396fb2b4a98d98d500adef33, type: 3}
+    - {fileID: 2182055423385465928, guid: 3395918d396fb2b4a98d98d500adef33, type: 3}
+    - {fileID: 6427006549308611396, guid: 3395918d396fb2b4a98d98d500adef33, type: 3}
+    - {fileID: 940957459016281726, guid: 3395918d396fb2b4a98d98d500adef33, type: 3}
+    - {fileID: -8280768759297795759, guid: 3395918d396fb2b4a98d98d500adef33, type: 3}
+    - {fileID: -4769885519859106964, guid: 3395918d396fb2b4a98d98d500adef33, type: 3}
+    m_GameObject: {fileID: 0}
+    m_MinAnimationSpeed: 1
+    m_MaxAnimationSpeed: 1
+    m_PerlinScale: 0.5
+    m_Output: 1
+    m_ColliderType: 1
+    m_RandomTransform: 0
+    m_Neighbors: 
+    m_NeighborPositions:
+    - {x: -1, y: 1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+    m_RuleTransform: 0

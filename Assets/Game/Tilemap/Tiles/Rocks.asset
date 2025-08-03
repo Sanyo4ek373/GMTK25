@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5e6f3fbb560bd6041a202ea918fa4f23, type: 3}
-  m_Name: Grass
+  m_Name: Rocks
   m_EditorClassIdentifier: 
   m_DefaultSprite: {fileID: -1090353317, guid: 63a7afd36b0e0424ab6e2750b44be470, type: 3}
   m_DefaultGameObject: {fileID: 0}
@@ -18,10 +18,11 @@ MonoBehaviour:
   m_TilingRules:
   - m_Id: 0
     m_Sprites:
-    - {fileID: -1868405190789094864, guid: 723c0fa459498c84f8010ac11df7df2b, type: 3}
-    - {fileID: 4266989191865947051, guid: 723c0fa459498c84f8010ac11df7df2b, type: 3}
-    - {fileID: 4266989191865947051, guid: 723c0fa459498c84f8010ac11df7df2b, type: 3}
-    - {fileID: 4266989191865947051, guid: 723c0fa459498c84f8010ac11df7df2b, type: 3}
+    - {fileID: 2748888616747918960, guid: a94878464ac81f3418a3edd1e4006f54, type: 3}
+    - {fileID: -7368726769406854791, guid: a94878464ac81f3418a3edd1e4006f54, type: 3}
+    - {fileID: 3821129195497168317, guid: a94878464ac81f3418a3edd1e4006f54, type: 3}
+    - {fileID: 5462885314567927796, guid: a94878464ac81f3418a3edd1e4006f54, type: 3}
+    - {fileID: -2152489036403169036, guid: a94878464ac81f3418a3edd1e4006f54, type: 3}
     m_GameObject: {fileID: 0}
     m_MinAnimationSpeed: 1
     m_MaxAnimationSpeed: 1

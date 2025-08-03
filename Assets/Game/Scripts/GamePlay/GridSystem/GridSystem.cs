@@ -9,17 +9,21 @@ namespace Game
     {
         public const string k_GroundTileMap = "GroundTileMap";
         public const string k_DecorationTileMap = "DecorationTileMap";
+        public const string k_BuildingsTileMap = "BuildingsTileMap";
         
-        private Tilemap _groundTilemap;
-        private Tilemap _decorationTilemap;
+        private readonly Tilemap _groundTilemap;
+        private readonly Tilemap _decorationTilemap;
+        private readonly Tilemap _buildingsTilemap;
 
         public GridSystem(
             [Inject (Id = k_GroundTileMap)] Tilemap groundTilemap,
-            [Inject (Id = k_DecorationTileMap)] Tilemap decorationTilemap
+            [Inject (Id = k_DecorationTileMap)] Tilemap decorationTilemap,
+            [Inject (Id = k_BuildingsTileMap)] Tilemap buildingsTilemap
             )
         {
             _groundTilemap = groundTilemap;
             _decorationTilemap = decorationTilemap;
+            _buildingsTilemap = buildingsTilemap;
         }
 
         public bool IsWithinBounds(Vector3Int position)
@@ -62,10 +66,11 @@ namespace Game
             return _decorationTilemap.GetTile(position);
         }
         
-        public bool HasTile(Vector3Int position)
+        public bool HasSpace(Vector3Int position)
         {
             var isTile = _decorationTilemap.GetTile(position);
-            return isTile != null;
+            var isGround = _groundTilemap.GetTile(position);
+            return !isTile && isGround;
         }
 
         public void SetTile(Vector3Int position, TileBase tile)
@@ -84,6 +89,11 @@ namespace Game
         public Vector3 CellToWorld(Vector3Int position)
         {
             return _groundTilemap.CellToWorld(position) - new Vector3(0.23f, -0.5f, 0);
+        }
+
+        public void AddBuildingGhost(Vector3Int position, TileBase tile)
+        {
+            _buildingsTilemap.SetTile(position, tile);
         }
     }
 }

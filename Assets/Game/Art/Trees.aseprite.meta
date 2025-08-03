@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 93a743df545689a4f987921469081c05
+guid: 3395918d396fb2b4a98d98d500adef33
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -97,7 +97,7 @@ ScriptedImporter:
     addSortingGroup: 1
     addShadowCasters: 0
   importFileNodeState: 1
-  platformSettingsDirtyTick: 638897826215375138
+  platformSettingsDirtyTick: 638897826429268486
   textureAssetName: 
   singleSpriteImportData:
   - name: 
@@ -121,18 +121,18 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: FENCE
+  - name: treess
     originalName: 
-    pivot: {x: 0.50757575, y: -0.007874016}
+    pivot: {x: 0.50000006, y: -0.02094241}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 264
-      height: 127
-    spriteID: 928fe40a872906740b4ea721458328df
+      width: 238
+      height: 191
+    spriteID: 7a3d086c6fed2bd49a7a9f6400f8fe5b
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -142,118 +142,18 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 4, y: 4}
   spriteSheetImportData:
-  - name: FENCE_0
+  - name: Trees_0
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 93
-      width: 18
-      height: 38
-    spriteID: 2f9c0c359721ba74f88372ee1d144cdb
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: FENCE_1
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 35
-      y: 93
-      width: 16
-      height: 38
-    spriteID: 44e78dfb6d1c8e84b801ed3b42994966
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: FENCE_2
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 71
-      y: 53
-      width: 21
-      height: 41
-    spriteID: 7adbe898fadbdfa4089609700d8cb328
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: FENCE_3
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 98
-      y: 94
-      width: 16
-      height: 38
-    spriteID: 7def5639bedb526469fbba63358398ac
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: FENCE_4
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 125
-      y: 94
-      width: 31
-      height: 38
-    spriteID: fd59f22b042ad6b42a17a52f4eb81d28
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: FENCE_5
-    originalName: 
-    pivot: {x: 0.5, y: 0.58}
+    pivot: {x: 0.5519361, y: 0.11038886}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 160
-      y: 93
-      width: 27
-      height: 38
-    spriteID: 8bab5e97d74b37f44bde55ba88b6fde3
+      x: 4
+      y: 132
+      width: 37
+      height: 63
+    spriteID: b2b2083470f6c2c43ace2885c7fcfc9c
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -262,18 +162,18 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: FENCE_6
+  - name: Trees_1
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
+    pivot: {x: 0.55040103, y: 0.09265524}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 191
-      y: 86
-      width: 34
-      height: 45
-    spriteID: 93c429717b8d72c4f85b53047ad84ddd
+      x: 46
+      y: 132
+      width: 37
+      height: 63
+    spriteID: 4de5aac008eeb7e4a834b9cb8cf036e6
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -282,18 +182,18 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: FENCE_7
+  - name: Trees_2
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
+    pivot: {x: 0.5551413, y: 0.0710643}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 227
-      y: 86
-      width: 38
-      height: 45
-    spriteID: 3572ad9bc77ea3949981018acf1fe242
+      x: 87
+      y: 132
+      width: 37
+      height: 63
+    spriteID: 141a4a6d83437434cbdd653558445780
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -302,138 +202,158 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: FENCE_8
+  - name: Trees_3
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
+    pivot: {x: 0.55077755, y: 0.09290592}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 127
+      y: 132
+      width: 37
+      height: 63
+    spriteID: fc4d1197dba93614f94a07ffa079bce8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  - name: Trees_4
+    originalName: 
+    pivot: {x: 0.5539419, y: 0.07562377}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 167
+      y: 132
+      width: 37
+      height: 63
+    spriteID: 0381818d491b20b4b83ba7e2bd297ee1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  - name: Trees_5
+    originalName: 
+    pivot: {x: 0.50198996, y: 0.076332845}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 68
+      width: 45
+      height: 61
+    spriteID: b0304fd6de51d504698ea94f4ffc1662
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  - name: Trees_6
+    originalName: 
+    pivot: {x: 0.49322593, y: 0.08612448}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 52
+      y: 68
+      width: 45
+      height: 61
+    spriteID: 7b14b128bcaa3f54b915b9935650a0e2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  - name: Trees_7
+    originalName: 
+    pivot: {x: 0.5, y: 0.09}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 100
+      y: 68
+      width: 45
+      height: 61
+    spriteID: bc82aebf072f9aa40af098547ff73388
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  - name: Trees_8
+    originalName: 
+    pivot: {x: 0.5, y: 0.09}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 148
+      y: 68
+      width: 45
+      height: 61
+    spriteID: adf710703291d384fb6633ca6e898338
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  - name: Trees_9
+    originalName: 
+    pivot: {x: 0.5, y: 0.09}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 196
+      y: 68
+      width: 45
+      height: 61
+    spriteID: ffcf08fbe56fdc444896408ad2e141e0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  - name: Trees_10
+    originalName: 
+    pivot: {x: 0.5, y: 0.06}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 5
-      y: 52
-      width: 18
-      height: 38
-    spriteID: 7581f4bd5e5b1ca419f185a3668e3462
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: FENCE_9
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 36
-      y: 52
-      width: 16
-      height: 38
-    spriteID: 269c9f4ade5cd2a4abb56d9cf1d04db2
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: FENCE_10
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 104
-      y: 53
-      width: 21
-      height: 41
-    spriteID: eac762c580ef86e44a7030f4db6d1330
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: FENCE_11
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 136
-      y: 49
-      width: 16
-      height: 38
-    spriteID: 6e5e115e6954ea240952d2ba6e681d9c
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: FENCE_12
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 189
-      y: 37
-      width: 38
-      height: 45
-    spriteID: 56f6f49ede888b647a0364477908612e
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: FENCE_13
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 234
-      y: 37
-      width: 34
-      height: 45
-    spriteID: 127c15269e5796043a67529244a6c6c8
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: FENCE_14
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 4
       y: 4
-      width: 18
-      height: 42
-    spriteID: 1a03306a148ffed4aa51b845ae6ddf79
+      width: 45
+      height: 61
+    spriteID: 49d0b341731f1f544b8f67f64948dc8e
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -442,58 +362,18 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: FENCE_15
+  - name: Trees_11
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 31
-      y: 4
-      width: 28
-      height: 40
-    spriteID: eaaa990066b124b428096736d32ed2c4
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: FENCE_16
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 69
-      y: 4
-      width: 18
-      height: 42
-    spriteID: 97f9279cdd143384d90c2c05ee58258e
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 0, y: 0}
-  - name: FENCE_17
-    originalName: 
-    pivot: {x: 0.4, y: 0.48}
+    pivot: {x: 0.5, y: 0.09}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 99
+      x: 52
       y: 4
-      width: 16
-      height: 42
-    spriteID: 566eb7339c15e68499d2427773cbfea1
+      width: 45
+      height: 61
+    spriteID: 5c6695b67c1f0424e8d1a6672530d5c1
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -502,18 +382,18 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: FENCE_18
+  - name: Trees_12
     originalName: 
-    pivot: {x: 0.435, y: 0.435}
+    pivot: {x: 0.5, y: 0.09}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 129
+      x: 100
       y: 4
-      width: 24
-      height: 40
-    spriteID: 4040b45f3fd2d454e8d7273efb1867dd
+      width: 45
+      height: 61
+    spriteID: 6c6add03a0fa98f4c953d9f774d22665
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -522,18 +402,38 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
-  - name: FENCE_19
+  - name: Trees_13
     originalName: 
-    pivot: {x: 0.66, y: 0.465}
+    pivot: {x: 0.5, y: 0.09}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 166
+      x: 148
       y: 4
-      width: 16
-      height: 42
-    spriteID: 6b3ddb54112fe3040b1a86f0156aa913
+      width: 45
+      height: 61
+    spriteID: 8088745a21c0e624c9f577692eff7d41
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  - name: Trees_14
+    originalName: 
+    pivot: {x: 0.5, y: 0.09}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 197
+      y: 4
+      width: 45
+      height: 61
+    spriteID: 6d69c50701382b54dbe9353018a7f10a
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -544,21 +444,21 @@ ScriptedImporter:
     uvTransform: {x: 0, y: 0}
   asepriteLayers:
   - layerIndex: 0
-    guid: 683202379
-    name: FENCE
+    guid: -169112388
+    name: treess
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: FENCE
+    - name: Trees
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
-        x: 0
-        y: 0
-        width: 265
-        height: 129
-      spriteId: 928fe40a872906740b4ea721458328df
+        x: 1
+        y: 4
+        width: 238
+        height: 191
+      spriteId: 7a3d086c6fed2bd49a7a9f6400f8fe5b
     linkedCells: []
     parentIndex: -1
   platformSettings:
@@ -625,4 +525,4 @@ ScriptedImporter:
   generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
-  canvasSize: {x: 268, y: 129}
+  canvasSize: {x: 240, y: 195}

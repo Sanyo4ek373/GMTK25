@@ -16,3 +16,4 @@ MonoBehaviour:
   <Grass>k__BackingField: {fileID: 11400000, guid: b4d1c4b39f1a2e84ba64c552896fbc6f, type: 2}
   <Dirt>k__BackingField: {fileID: 11400000, guid: 53f0948c47289944d9dee31c4928511f, type: 2}
   <Tree>k__BackingField: {fileID: 11400000, guid: 49fb88702ba86384c9962632e14bb41a, type: 2}
+  <PlaceholderGhost>k__BackingField: {fileID: 11400000, guid: cd75e3484fc680e46bd4f04791d8456c, type: 2}

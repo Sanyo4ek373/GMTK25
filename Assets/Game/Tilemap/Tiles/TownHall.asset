@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e6f3fbb560bd6041a202ea918fa4f23, type: 3}
+  m_Name: TownHall
+  m_EditorClassIdentifier: 
+  m_DefaultSprite: {fileID: -154990294326140974, guid: 49c700d2c8a75034bafeedc1322cab14, type: 3}
+  m_DefaultGameObject: {fileID: 7389712704527472696, guid: 8a302e1eeb33786458a08cff93f92914, type: 3}
+  m_DefaultColliderType: 1
+  m_TilingRules: []

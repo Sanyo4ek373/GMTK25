@@ -11,14 +11,16 @@ namespace Game
         public override void GetTileData(Vector3Int position, ITilemap tilemap, ref TileData tileData)
         {
             var length = _animatedTiles.Length;
-            _animatedTiles[Mathf.Abs(position.x + position.y) % length]
+            var index = Mathf.Abs((position.x + position.y) % length);
+            _animatedTiles[index]
                 .GetTileData(position, tilemap, ref tileData);
         }
 
         public override bool GetTileAnimationData(Vector3Int position, ITilemap tilemap, ref TileAnimationData tileAnimationData)
         {
             var length = _animatedTiles.Length;
-            return _animatedTiles[(Mathf.Abs(position.x) + Mathf.Abs(position.y)) % length]
+            var index = Mathf.Abs((position.x + position.y) % length);
+            return _animatedTiles[index]
                         .GetTileAnimationData(position, tilemap, ref tileAnimationData);
         }
     }
